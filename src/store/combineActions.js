@@ -5,7 +5,7 @@ import { taggingActions } from '../containers/save/toolbar/tagging/_tagging'
 import { recommendationActions } from '../containers/save/recommendations/_recommendations'
 import { surveyActions } from '../containers/save/survey/_survey'
 
-const { setupExtension, toggleRecommendations, toggleSite } = setupActions
+const { setupExtension, toggleRecommendations, toggleAutoFocus, toggleSite } = setupActions
 
 const { frameLoaded, setTabStatus, setDropDownStatus } = tabsActions
 
@@ -42,6 +42,7 @@ const { surveyRespond, surveyCancel } = surveyActions
 export {
   setupExtension,
   toggleRecommendations,
+  toggleAutoFocus,
   toggleSite,
   frameLoaded,
   setTabStatus,

@@ -103,6 +103,7 @@ class App extends Component {
         <SaveContainer
           isSaveActive={this.isSaveActive()}
           showRecs={this.showRecs}
+          shouldAutoFocus={this.props.setup.on_save_auto_focus}
           onHover={this.onHover}
           offHover={this.offHover}
           tab_id={this.props.tab_id}
